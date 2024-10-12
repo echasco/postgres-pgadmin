@@ -1,12 +1,18 @@
-# postgres-pgadmin web with docker-compose 
+# PostgreSQL and pgAdmin Web with docker-compose 
 ## Clone repository
-- `git clone https://github.com/echasco/postgres-pgadmin.git`
+```shell
+git clone https://github.com/echasco/postgres-pgadmin.git`
+```
 
 ## Rename .env.example to .env
-- `mv .env.example .env`
+```shell
+mv .env.example .env
+```
 
 ## Execute docker-compose
-- `docker-compose up -d`
+```shell
+docker-compose up -d`
+```
 
 ## Open URL
 https://localhost:8080
@@ -19,3 +25,9 @@ https://localhost:8080
 - `Port: 5432`
 - `Username: postgres`
 - `Password: mysupersecretpassword`
+
+## References
+![pgAdmin configuration](https://github.com/echasco/postgres-pgadmin/blob/main/images/image.png)
+
+
+![pgAdmin connected](https://github.com/echasco/postgres-pgadmin/blob/main/images/image-1.png)

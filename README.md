@@ -1,7 +1,7 @@
 # PostgreSQL and pgAdmin Web with docker-compose 
 ## Clone repository
 ```shell
-git clone https://github.com/echasco/postgres-pgadmin.git`
+git clone https://github.com/echasco/postgres-pgadmin.git
 ```
 
 ## Rename .env.example to .env
@@ -11,7 +11,7 @@ mv .env.example .env
 
 ## Execute docker-compose
 ```shell
-docker-compose up -d`
+docker-compose up -d
 ```
 
 ## Open URL
